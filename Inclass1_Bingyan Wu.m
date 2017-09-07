@@ -87,8 +87,8 @@ oneToTen = 1:10;
 
 % 3. Even numbers in reverse order from twenty to two (hint lookup the
 % matlab function fliplr)
-% Bingyan Wu: c = 20:-2:2
-% Bingyan Wu: c = 10:-2:2; [c+10,c]
+
+% Bingyan Wu: c = fliplr(2:2:20)
 
 % explain why the fliplr funciton no longer works and find a different
 % matlab function that performs an equivalent function on the same array
@@ -119,7 +119,8 @@ m2./m1
 % element in m1 and returns the resulting matrix
 %extra credit: explain why this command gives a warning:
 m2/m1
-% Bingyan Wu: because a matrix cannot be divided by another matrix
+% Bingyan Wu: because a matrix cannot be divided by another matrix,unless
+% it is product of two matrices
 
 %% access particular elements and groups of elements
 
