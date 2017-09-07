@@ -17,7 +17,7 @@ b = a+a
 % these arrays and explain the results). 
 
 x2 = [x x]
-% Bingyan Wu: it is making a one row, one column array with 1 and 1 in it
+% Bingyan Wu: it is making a one row, two columns array with 1 and 1 in it
 a2 = [a a]
 % Bingyan Wu: it is giving a character 11
 x2b = [x; x]
