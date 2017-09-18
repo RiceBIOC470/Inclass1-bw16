@@ -1,4 +1,6 @@
-% InClass1: some simple excerises to get started with MATLAB. Please complete by
+%AW: Looks good. 0.98/1. See my comments below.  
+
+%InClass1: some simple excerises to get started with MATLAB. Please complete by
 % the second class. Answer questions in comments and return assignment via
 % github
 %% numbers vs strings
@@ -80,6 +82,7 @@ oneToTen = 1:10;
 % 1. even numbers from two to twenty
 % Bingyan Wu: a = 2:2:20
 % Bingyan Wu: a = 2:2:10; [a,a+10]
+%AW: these do not use the oneToTen array. as in 2*oneToTen. -0.02.
 
 % 2. odd numbers from one to nineteen
 % Bingyan Wu: b = 1:2:19
@@ -97,6 +100,7 @@ fliplr(oneToTen)
 % Bingyan Wu: the first line converts the array to a vertical array and
 % therefore cannot be flipped
 % Bingyan Wu: fliplr(rot90(oneToTen))
+%AW: Ok, see also flipud. 
 
 %% matrices, . operator
 
